@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  height: 100vh;
+  background: #ffb92a;
+}
+
+.newsImage {
+  margin-right: 1em;
+}
+
+.head-line {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.head-line h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.menus {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-top: 2px solid #293447;
+  border-bottom: 2px solid #293447;
+}
+
+.menus button {
+  font-weight: 600;
+  border: none;
+  background: none;
+  margin: 5px;
+}
+
+.menus button:hover {
+  background: #fff;
+  border-radius: 5px;
+  transform: scale(1.1);
+}
+
+.new-img-size {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 100%;
+  max-height: 250px;
+}
+
+.news_text {
+  margin-top: 1em;
+}
+
+.news_text h2 {
+  color: black;
+  font-weight: bold;
+}
+
+.news_text .rights {
+  padding: 1em;
+  padding-left: 0em;
+}
+
+.news {
+  border-bottom: 2px solid #293447;
+}
+
+#search-button {
+  padding: 6px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #293447;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#search-input {
+  flex: 1;
+  padding: 6px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.searh {
+  margin-top: 1em;
+  padding-left: 2em;
+}
+
+/* //////// */
+
+.side-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.side-menu-list button {
+  margin: 5px;
+  border: none;
+  background: none;
+  width: 120px;
+}
+
+.side-menu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  border: none;
+  background: none;
+}
+
+.side-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-menu-list button:hover {
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.icon-button {
+  transform: translate(10%, 10%);
+  position: fixed;
+  top: 23px;
+  cursor: pointer;
+}
