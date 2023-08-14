@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img src="/ReadMe_images/news_page.PNG">
+  <img src="/ReadMe_images/news_page.jpg">
   <br>
 </p>
 목차
