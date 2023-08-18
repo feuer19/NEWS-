@@ -18,6 +18,7 @@
 * 개발 인원: 1명(개인 프로젝트)
 * API: newsapi.org
 * Deployment: netlify
+* FrontEnd: Bootstrap
 </p>
 
 <br>
