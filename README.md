@@ -3,7 +3,6 @@
 <p align="center">
   <br>
   <img src="/ReadMe_images/news_page.jpg">
-  <br>https://github.com/feuer19/News/blob/master/README.md
 </p>
 * 데모앱🎬 : https://sc-news.netlify.app
 <br>
